@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-[#584f4f]">
+
+    <header class="flex items-center justify-between pr-6 bg-black text-white py-4 mt-10">
+        <div class="logo flex items-center">
+            <img src="./assets/Moviestack_isotipo.png" alt="isotipo" class="w-24 h-16 sm:w-32 sm:h-24 mr-3">
+            <img src="./assets/Moviestack_logotipo1.png" alt="Logo" class="w-24 h-16 sm:w-32 sm:h-24 mr-10">
+        </div>
+        <nav class="flex space-x-4">
+            <a href="#" class="text-white border-2 border-l-indigo-600 px-2">HOME</a>
+            <a href="./Pages/movie.html" class="text-white">MOVIES</a>
+            <a href="#" class="text-white">FAVS</a>
+        </nav>
+    </header>
+    
+    <main class="flex-1">
+        <img src="assets/pexels-donaldtong94-109669.jpg" class="h-64 sm:h-80 object-cover w-full" alt="Imagen principal">
+        <div class="flex justify-center mt-5">
+            <a href="./Pages/movie.html" class="bg-black hover:bg-purple-600 text-white font-bold p-4 sm:p-8 mx-2 rounded-lg transition-colors duration-300">
+                <span class="text-lg sm:text-xl block">Peliculas</span>
+                <p class="text-xs sm:text-sm mt-1 sm:mt-2">Conocé un mundo de películas</p>
+            </a>
+            <a href="fav.html" class="bg-black hover:bg-purple-600 text-white font-bold p-4 sm:p-8 mx-2 rounded-lg transition-colors duration-300">
+                <span class="text-lg sm:text-xl block">Favoritos</span>
+                <p class="text-xs sm:text-sm mt-1 sm:mt-2">Descubrí tu nuevo favorito</p>
+            </a>
+        </div>
+    </main>
+    
+
+    <footer class="bg-black text-white py-4 mt-auto">
+        <p class="text-center">Luana Kaori Ibarra - Cohort 55</p>
+    </footer>
+
+</body>
+</html>
